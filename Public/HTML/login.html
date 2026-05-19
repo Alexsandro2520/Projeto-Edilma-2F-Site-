@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/CSS/estilo.css">
+</head>
+<body>
+
+    <img class="img" src="nsalogo.png" alt="NSA logo" width="500">
+
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu usuário">
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+
+  
+            <button type="button" onclick="irParaHome()">Entrar</button>
+
+            <script>
+                function irParaHome() {
+                window.location.href = "/home";
+                }
+            </script>
+        </form>
+    </div>
+</body>
+</html>
