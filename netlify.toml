@@ -1,0 +1,12 @@
+[build]
+  publish = "Public"
+
+[[redirects]]
+  from = "/"
+  to = "/HTML/login.html"
+  status = 200
+
+[[redirects]]
+  from = "/home"
+  to = "/HTML/home.html"
+  status = 200
